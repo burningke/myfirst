@@ -5,7 +5,7 @@ Nam_vor = list("")
 Nam_nach = list("")
 Sch_vor = list("")
 Sch_nach = list("")
-time.sleep(5.5)
+time.sleep(6.5)
 
 for i,j in enumerate(Nam_vor):
     pydirectinput.press(j)
