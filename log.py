@@ -1,10 +1,10 @@
 import pydirectinput
 import time
 
-Nam_vor = "".split()
-Nam_nach = "".split()
-Sch_vor = "".split()
-Sch_nach = "".split()
+Nam_vor = list("")
+Nam_nach = list("")
+Sch_vor = list("")
+Sch_nach = list("")
 time.sleep(5.5)
 
 for i,j in enumerate(Nam_vor):
@@ -21,7 +21,7 @@ for i,j in enumerate(Nam_nach):
     time.sleep(0.1)
 
 pydirectinput.press('enter')
-time.sleep(0.1)
+time.sleep(1.5)
 
 for i,j in enumerate(Sch_vor):
     pydirectinput.press(j)
